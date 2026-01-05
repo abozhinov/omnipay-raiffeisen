@@ -16,6 +16,7 @@ class PurchaseRequest extends AbstractRequest
         $this->validate('OrderID', 'TotalAmount');
 
         $data = array_merge($data, [
+            'Currency' => $this->getParameter('Currency'),
             'TotalAmount' => $this->getParameter('TotalAmount'),
             'OrderID' => $this->getParameter('OrderID'),
             'PurchaseDesc' => $this->getParameter('PurchaseDesc'),
