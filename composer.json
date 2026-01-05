@@ -1,5 +1,5 @@
 {
-    "name": "gentor/omnipay-raiffeisen",
+    "name": "abozhinov/omnipay-raiffeisen",
     "type": "library",
     "description": "Raiffeisen Bank BG gateway for Omnipay payment processing library",
     "keywords": [
