@@ -28,7 +28,7 @@ class Gateway extends AbstractGateway
     public function getDefaultParameters()
     {
         return [
-            'Currency' => 975, // BGN
+            'Currency' => 978, // EUR
             'version' => 1,
             'algorithm' => OPENSSL_ALGO_SHA512,
             'testMode' => true,
